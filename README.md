@@ -1,68 +1,82 @@
-# Thurin Brand Kit
+# Thurin brand kit
 
-Brand assets for Thurin - privacy-preserving identity verification.
-
-## Logo
-
-The Thurin logo is a stylized fingerprint representing identity verification with privacy.
-
-### Icon
+Marks, wordmarks, colours, and type for **Thurin.id** (the product) and **Thurin Labs** (the company). Take what you need.
 
 <p align="center">
-  <img src="logo-icon.svg" width="100" alt="Thurin icon">
+  <img src="lockups/thurin-id-dark.png" width="380" alt="Thurin.id">
+  &nbsp;&nbsp;
+  <img src="lockups/thurinlabs-id-dark.png" width="480" alt="ThurinLabs.id">
 </p>
 
-| File | Use |
-|------|-----|
-| `logo-icon.svg` | Primary icon |
-| `logo-icon-dark-bg.svg` | For dark backgrounds |
-| `logo-icon-padded.svg` | With padding for social/favicons |
-| `logo-icon-verified.svg` | With checkmark |
+## Names
 
-### Full Logo
+| | Say | Wordmark | Line |
+|---|---|---|---|
+| The product | **Thurin.id** | Thurin**.id** | PGP keys on Ethereum · Old trust – new ground |
+| The company | **Thurin Labs** | ThurinLabs**.id** | Prove more. Reveal less. |
 
-| File | Size | Background |
-|------|------|------------|
-| `logo-2048.png` | 2048px | Light |
-| `logo-2048-dark.png` | 2048px | Dark |
-| `logo-400.png` | 400px | Light |
-| `logo-dark-400.png` | 400px | Dark |
+Never bare "Thurin" for the product. The CLI command is `thurin`; the site is thurin.id; the company site is thurinlabs.id.
 
-### Social / Headers
+## Marks
 
-| File | Dimensions | Use |
-|------|------------|-----|
-| `header-1500x500.png` | 1500×500 | Twitter/X header |
-| `og-image.svg` | 1200×630 | Open Graph |
+A fingerprint of green and gold arcs. Thurin Labs uses it alone; Thurin.id adds a gold magnifying glass.
 
-## Colors
+| File | What |
+|---|---|
+| `marks/thurin-labs.svg`, `marks/thurin-id.svg` | the marks, transparent, tight box |
+| `marks/*-512.png` | the same as PNG |
+| `marks/*-tile-dark.svg`, `*-tile-light.svg` (+ `-1024.png`) | square, padded, on the ground: avatars, favicons, app icons |
 
-| Swatch | Name | Hex | Use |
-|--------|------|-----|-----|
-| <img src="swatches/sage-green.svg" width="60" height="20"> | **Sage Green** | `#7c9a3e` | Primary - outer arcs |
-| <img src="swatches/gold.svg" width="60" height="20"> | **Gold** | `#c9a227` | Accent - inner arcs |
-| <img src="swatches/dark.svg" width="60" height="20"> | **Dark** | `#1a1a12` | Dark backgrounds |
-| <img src="swatches/light.svg" width="60" height="20"> | **Light** | `#faf9f5` | Light backgrounds |
-| <img src="swatches/muted.svg" width="60" height="20"> | **Muted** | `#a8a598` | Secondary text |
+The mark keeps its colours (`#7c9a3e`, `#c9a227`) on dark and light grounds.
 
-## Typography
+## Wordmarks and lockups
 
-- **Primary**: System font stack (`-apple-system, BlinkMacSystemFont, sans-serif`)
-- **Wordmark**: Bold (700 weight)
+Crimson Pro: the name in bold, a lighter `.id` in green. Letters are outlined in the SVGs, so no font is needed.
 
-## Usage Guidelines
+| File | What |
+|---|---|
+| `wordmarks/thurin-id-{dark,light}.svg`, `wordmarks/thurinlabs-id-{dark,light}.svg` (+ `.png`) | the wordmark alone, transparent; `dark` is for dark grounds |
+| `lockups/thurin-id-{dark,light}.svg`, `lockups/thurinlabs-id-{dark,light}.svg` (+ `.png`) | mark + wordmark on the ground |
 
-### Do
-- Use the logo with adequate padding
-- Use on solid backgrounds (dark or light)
-- Link to thurin.id when displaying the logo
+## Social
 
-### Don't
-- Modify the logo colors
-- Add effects (shadows, gradients, etc.)
-- Use on busy backgrounds
-- Stretch or distort
+| File | Size |
+|---|---|
+| `social/header-{thurin-id,thurinlabs-id}-{dark,light}-1500x500.png` | X / social header |
+| `social/og-{thurin-id,thurinlabs-id}-{dark,light}-1200x630.png` | link preview |
+
+## Colours
+
+The sites have two modes; these are their colours.
+
+| | Dark | Light |
+|---|---|---|
+| Ground | <img src="swatches/dark-bg.svg" width="40" height="14"> `#1a1a12` | <img src="swatches/light-bg.svg" width="40" height="14"> `#faf9f5` |
+| Surface | <img src="swatches/dark-surface.svg" width="40" height="14"> `#252518` | <img src="swatches/light-surface.svg" width="40" height="14"> `#f0efe8` |
+| Deep surface | <img src="swatches/dark-deep.svg" width="40" height="14"> `#151510` | <img src="swatches/light-deep.svg" width="40" height="14"> `#e8e7e0` |
+| Border | <img src="swatches/dark-border.svg" width="40" height="14"> `#3a3a2a` | <img src="swatches/light-border.svg" width="40" height="14"> `#d0cfc4` |
+| Text | <img src="swatches/dark-text.svg" width="40" height="14"> `#faf9f5` | <img src="swatches/light-text.svg" width="40" height="14"> `#2a2a22` |
+| Muted text | <img src="swatches/dark-muted.svg" width="40" height="14"> `#a8a598` | <img src="swatches/light-muted.svg" width="40" height="14"> `#6b6960` |
+| Green (primary) | <img src="swatches/dark-green.svg" width="40" height="14"> `#7c9a3e` | <img src="swatches/light-green.svg" width="40" height="14"> `#5a7228` |
+| Gold (accent) | <img src="swatches/dark-gold.svg" width="40" height="14"> `#c9a227` | <img src="swatches/light-gold.svg" width="40" height="14"> `#a8861e` |
+
+## Type
+
+| Use | Font |
+|---|---|
+| Headings | **Cinzel** (700) |
+| Body and the wordmarks | **Crimson Pro** (400, 700) |
+| Code, fingerprints, labels | **Share Tech Mono** |
+| Card images | Inter and JetBrains Mono |
+
+All free (SIL Open Font License).
+
+## Please
+
+- Give the marks room; keep them on a plain ground.
+- Don't recolour, stretch, or add effects.
+- Link to thurin.id when you show the Thurin.id mark.
 
 ## License
 
-Logo and brand assets © Thurin. All rights reserved.
+© Thurin Labs LLC. You may use these to refer to Thurin.id and Thurin Labs.

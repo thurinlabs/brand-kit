@@ -1,6 +1,0 @@
-<svg viewBox="0 0 1500 500" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1500" height="500" fill="#1a1a12"/>
-
-  <!-- Tagline only, centered -->
-  <text x="750" y="260" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="48" font-weight="500" fill="#a8a598" text-anchor="middle">Prove more. Reveal less.</text>
-</svg>
